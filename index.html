@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="google" content="notranslate">
+    <link rel="icon" sizes="any" href="images/scadajs.ico">
+    <title>ScadaJS Template</title>
+    <script>window.appStart = Date.now();</script>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script id="vendor" src="js/vendor.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <link rel="stylesheet" href="css/vendor.css">
+    <!--script(src="https://www.w3counter.com/tracker.js?id=112917")-->
+    <script id="vendor" src="js/vendor2.js"></script>
+    <link rel="stylesheet" href="css/vendor2.css">
+  </head>
+  <body>
+    <div class="ui centered grid" id="content">
+      <div class="row">
+        <div class="column" style="padding-top: 10%"><img class="ui small centered image" src="images/scadajs-logo-long.svg" alt="ScadaJS"></div>
+      </div>
+      <div class="row">
+        <div class="column"> 
+          <div class="ui center aligned grid"> 
+            <div class="row">
+              <div class="column">Loading Application...</div>
+            </div>
+            <div class="row"> 
+              <div class="column"> 
+                <div id="timer">                        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
